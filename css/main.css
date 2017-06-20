@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento|Josefin+Slab');
+
+.secciones{
+   padding-top: 70px;
+ }
+.fa{
+  margin-right: 2%
+}
+.portada{
+  background-image: url("../assets/img/azul-amarillo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.nombre{
+  font-family: 'Sacramento', cursive;
+  font-size: 9rem;
+  margin-top: 6%;
+  color: #0F1E36;
+  font-weight: bold;
+}
+.devp{
+  font-family: 'Josefin Slab', serif;
+  font-size: 4rem;
+  color: #0485A3;
+  font-weight: bold;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+  .nombre{
+      font-size: 17rem;
+      margin-top: 12%;
+  }
+  .devp{
+    font-size: 7rem;
+    margin-top: 0;
+  }
+
+}
