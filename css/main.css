@@ -33,7 +33,7 @@
   background-image: url("../assets/img/amarillo.jpeg");
   background-size: cover;
   background-position: top;
-  padding: 20% 0;
+  padding: 8vh 0;
 }
 .titulo-azul{
   color: #0485A3;
@@ -44,7 +44,7 @@
 .foto{
   border-radius: 50%;
   filter: grayscale(45%);
-  width: 50%;
+  width: 30vh;
   margin: 6% 0;
 }
 .texto{
