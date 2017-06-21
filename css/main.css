@@ -9,44 +9,48 @@
 .fondo{
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 .portada{
   background-image: url("../assets/img/azul-amarillo.jpg");
   background-attachment: fixed;
+  height: 100vh;
 }
 .nombre{
   font-family: 'Sacramento', cursive;
-  font-size: 9rem;
-  margin-top: 6%;
+  font-size: 17vh;
+  margin-top: 17vh;
   color: #0F1E36;
   font-weight: bold;
 }
 .devp{
   font-family: 'Josefin Slab', serif;
-  font-size: 4rem;
+  font-size: 6vh;
   color: #0485A3;
   font-weight: bold;
 }
 /*acerca de mi*/
 .acerca{
-  background-image: url("../assets/img/gris2.jpg");
+  background-image: url("../assets/img/amarillo.jpeg");
+  background-size: cover;
+  background-position: top;
+  padding: 20% 0;
 }
-.titulo-amarillo{
-  color: #F6EA08;
+.titulo-azul{
+  color: #0485A3;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
-  font-size: 10vh;
+  font-size: 8vh;
 }
 .foto{
   border-radius: 50%;
   filter: grayscale(45%);
-  width: 70%;
+  width: 50%;
+  margin: 6% 0;
 }
 .texto{
   font-family: 'Raleway', sans-serif;
-  font-size: 3.5vh;
-  color: #043A50;
+  font-size: 3vh;
+  color: #0485A3;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
@@ -63,5 +67,19 @@
     font-size: 7rem;
     margin-top: 0;
   }
-
+  .portada{
+    margin: 0;
+  }
+/*acerca de mi*/
+  .acerca{
+    height: 100vh;
+    padding: 7%;
+    margin: 0;
+  }
+  .foto{
+    width: 70%;
+  }
+  .texto{
+    margin-top: 12%;
+  }
 }
