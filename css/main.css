@@ -58,32 +58,21 @@ nav .fa{
 .texto.azul{
   color: #0485A3;
 }
+/*habilidades*/
+.img-skills{
+  width: 35%;
+}
 /*proyecto*/
 .proyecto{
-  background-image: url("../assets/img/azul.jpeg");
+  /*background-image: url("../assets/img/anchor-lee-181406.jpg");*/
+  padding-top: 5%;
+  padding-bottom: 8%;
 }
 .proyecto-imagen{
-  width: 80%;
+  width: 60%;
 }
-.proyecto .fa{
-  font-size: 8vw;
-  color: #fff;
-  border: 3px solid #fff;
-  padding: 4%;
-  border-radius: 100%;
-  background-color: yellow;
-}
-.proyecto .fa:hover{
-  border: 3px solid yellow;
-  color: yellow;
-  background-color: #fff;
-}
-.link-mobile{
-  display: block;
-}
-[class^='imghvr-'],
-[class*=' imghvr-']{
-  display: none;
+.titulo_margin{
+  margin-bottom: 5%;
 }
 /*contacto*/
 .contacto{
@@ -106,7 +95,7 @@ nav .fa{
 }
 /*footer*/
 .footer-fondo{
-  background-color: #272951;
+  background-color: #364CA2;
   color: #fff;
   padding: 1%;
 }
@@ -144,23 +133,6 @@ nav .fa{
     margin-top: 12%;
   }
   /*portafolio*/
-  .figcaption{
-    width: 100%;
-  }
-  .proyecto .fa{
-    font-size: 4vw;
-    padding: 8%;
-  }
-  [class^='imghvr-'],
-  [class*=' imghvr-'] {
-    display: block;
-    background-color: transparent;
-  }
-  [class*=" imghvr-"] figcaption, [class^=imghvr-] figcaption{
-    background-color: rgba(128, 150, 179,.5);
-  }
-  .link-mobile{
-    display: none;
-  }
+
   /*contacto*/
 }
