@@ -1,6 +1,3 @@
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
 
 // Select all links with hashes
 $('a[href*="#"]')
