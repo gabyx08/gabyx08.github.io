@@ -64,7 +64,7 @@ nav .container-fluid{
 /*acerca de mi*/
 .acerca{
   background-color: #FCD639;
-  background-image: url("../assets/img/amarillo2.jpeg");
+  background-image: url("../assets/img/amarillo3.jpg");
   background-size: cover;
   background-position: top;
   padding: 8vh 0;
@@ -114,9 +114,8 @@ nav .container-fluid{
 }
 /*contacto*/
 .contacto{
-  background-color: rgba(54, 76, 162, .9);
-    background-image: url("../assets/img/amarillo2.jpeg");
-
+  background-color: #FCD639;
+  background-image: url("../assets/img/amarillo3.jpg");
   color: #0F1E36;
   padding: 3%;
   font-family:'Open Sans', sans-serif;;
