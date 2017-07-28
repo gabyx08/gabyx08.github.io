@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gaby Rangel</title>
+  <link rel="shortcut icon" href="./assets/img/favi.png" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/habilidades.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="css/aos.css" />
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://use.fontawesome.com/4074213dd2.js"></script>
 </head>
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
   <header>
@@ -36,15 +40,15 @@
     </nav>
   </header>
   <section id="inicio" class="portada fondo secciones">
-    <h1 class="nombre text-center">Gabriela Rangel</h1>
-    <h2 class="devp text-center">Front-End Developer</h2>
+    <h1 class="nombre text-center animated fadeInDownBig">Gabriela Rangel</h1>
+    <h2 class="devp text-center animated fadeInLeft">Front-End Developer</h2>
   </section>
-  <section id="deMi"class="secciones acerca fondo">
-    <h3 class="text-center titulo titulo-azul">Acerca de Mí</h3>
+  <section id="deMi" class="secciones acerca fondo">
+    <h3 class="text-center titulo">Acerca de Mí</h3>
     <div class="container">
       <div class="row">
         <div class="col-sm-4 text-center">
-          <img src="assets/img/gaby.jpg" alt="gaby-ranarz" class="foto">
+          <img src="assets/img/gaby.jpg" alt="gaby-ranarz" class="foto" data-aos="flip-left">
         </div>
         <div class="col-sm-offset-1 col-sm-6 text-justify">
           <p class="texto texto-azul">¡Hola!</p>
@@ -54,7 +58,7 @@
     </div>
   </section>
 <!-- HABILIDADES -->
-  <section id="tecnico" class="secciones text-center">
+  <section id="tecnico" class=" habilidades secciones text-center">
     <h3 class="titulo">Habilidades</h3>
     <img src="assets/img/skills.png" alt="skills" class="img-skills">
 
@@ -123,11 +127,11 @@
       </div>
     </div>
   </section>
-  <section id="proyectos" class="proyecto fondo secciones">
-    <h3 class="text-center titulo titulo-azul titulo_margin">Proyectos</h3>
+  <section id="proyectos" class="proyecto secciones">
+    <h3 class="text-center titulo titulo_margin">Proyectos</h3>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center">
+        <div data-aos="zoom-in-right" class="col-xs-12 col-sm-6 text-center ">
           <div class="thumbnail">
              <img src="assets/img/proyectos/appLove.png" alt="..." class="proyecto-imagen">
              <div class="caption">
@@ -139,7 +143,7 @@
              </div>
            </div>
         </div>
-        <div class="col-xs-12 col-sm-6 text-center">
+        <div data-aos="zoom-in-left" class="col-xs-12 col-sm-6 text-center">
           <div class="thumbnail">
              <img src="assets/img/proyectos/labcar.png" alt="..." class="proyecto-imagen">
              <div class="caption">
@@ -153,7 +157,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center">
+        <div data-aos="zoom-in-right" class="col-xs-12 col-sm-6 text-center">
           <div class="thumbnail">
              <img src="assets/img/proyectos/freelancer.png" alt="..." class="proyecto-imagen">
              <div class="caption">
@@ -165,14 +169,14 @@
              </div>
            </div>
         </div>
-        <div class="col-xs-12 col-sm-6 text-center">
+        <div data-aos="zoom-in-left" class="col-xs-12 col-sm-6 text-center">
           <div class="thumbnail">
-             <img src="assets/img/proyectos/Alertate.png" alt="..." class="proyecto-imagen">
+             <img src="assets/img/proyectos/Alertate.png" alt="..." class="alertate">
              <div class="caption">
                <h3>Alertate!</h3>
                <p>Proyecto colaborativo, API Google Maps</p>
-               <p><a href="#" class="btn btn-primary" target="_blank" role="button"><i class="fa fa-window-maximize" aria-hidden="true"></i></a>
-                  <a href="#" class="btn btn-default" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i></a>
+               <p><a href="https://www.responsinator.com/?url=https%3A%2F%2Fmonerivas.github.io%2FAlertate%2F" class="btn btn-primary" target="_blank" role="button"><i class="fa fa-window-maximize" aria-hidden="true"></i></a>
+                  <a href="https://github.com/monerivas/Alertate" class="btn btn-default" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i></a>
                </p>
              </div>
            </div>
@@ -181,13 +185,13 @@
     </div>
   </section>
   <section id="contactame" class="contacto fondo">
-    <h3 class="text-center contacto-titulo">Contáctame</h3>
+    <h3 class="text-center contacto-titulo animated rubberBand"  data-aos="zoom-out-down">Contáctame</h3>
     <div class="container">
       <div class="row text-center">
       <div class="col-sm-6">
         <p> <i class="fa fa-envelope-o" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="top" data-content="gaby.ranarz@gmail.com"></i> gaby.ranarz@gmail.com</p>
         <p><i class="fa fa-phone" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="top" data-content="55 16 28 94 68"></i> 55 16 28 94 68</p>
-        <p><a href="assets/gaby-cv.pdf" target="_blank">Mi CV</a></p>
+        <p><a href="assets/gaby-cv.pdf" target="_blank">Descarga mi CV</a></p>
 
         </div>
         <div class="col-sm-6">
@@ -201,9 +205,9 @@
     <p class="logo">gaby<i class="fa fa-star-o" aria-hidden="true"></i></p>
     <p>&copy; Gabriela Rangel 2017</p>
   </footer>
-  <script src="https://use.fontawesome.com/4074213dd2.js"></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
