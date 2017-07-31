@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento|Josefin+Slab|Open+Sans|Roboto+Slab');
-
 .secciones{
    padding-top: 70px;
  }
@@ -9,7 +7,7 @@
 }
 /*nav*/
 nav .fa{
-  margin-right: 2%
+  margin-right: 2%;
 }
 .logo{
   font-family: 'Sacramento', cursive;
@@ -23,88 +21,133 @@ a.navbar-brand.logo{
   width: 25vw;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand,.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-  color: #fff;
+  color: #F9F9F9;
 }
 nav .container-fluid{
-  background-color: rgba(54, 76, 162, .9);
+  background-color: #631357;
 }
 .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
-    color: #fff;
+    color: #F9F9F9;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8rem;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
-  color: white;
-  background-color: #F5C606;
+  color: #F9F9F9;
+  background-color: #9F1861;
   font-weight: bold;
 }
 /*portada*/
 .portada{
-  background-image: url("../assets/img/azul-amarillo.jpg");
+  background-image: url("../assets/img/tren.jpg");
   background-attachment: fixed;
   height: 100vh;
+}
+.fondo-blanco{
+    background-color: rgba(159, 24, 97, .3);
 }
 .nombre{
   font-family: 'Sacramento', cursive;
   font-size: 17vh;
   margin-top: 17vh;
-  color: #0F1E36;
+  color: #F9F9F9;
   font-weight: bold;
-  background-color: rgba(250,250,250,.5);
-  margin-bottom: 0;
-  padding-top: 2vh;
 }
 .devp{
   font-family: 'Josefin Slab', serif;
   font-size: 6vh;
-  color: #0F1E36;
+  color: #EFE94B;
   font-weight: bold;
-  background-color: rgba(250,250,250,.5);
-  margin-top: 0;
-
+  font-variant: small-caps; 
 }
 /*acerca de mi*/
-.acerca{
-  background-color: #FCD639;
-  background-image: url("../assets/img/amarillo3.jpg");
+.acerca, .contacto{
+  background-color: #631357;
+  background-image: url("../assets/img/degradado.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   padding: 8vh 0;
 }
 .titulo{
-  font-family: font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  font-size: 8vh;
-  color: #485CAA;
+  font-size: 5rem;
+  font-variant: small-caps;
+}
+.titulo--amarillo{
+  color: #EFE94B;
+}
+.titulo--rosa{
+  color: #9F1861;
 }
 .foto{
   border-radius: 50%;
   filter: grayscale(20%);
   width: 30vh;
   margin: 6% 0;
+  border: 7px double #9F1861;
 }
 .texto{
-  font-family:font-family: 'Open Sans', sans-serif;
-  font-size: 3vh;
+  font-family: 'Josefin Slab', serif;
+  font-size: 2rem;
   font-weight: bold;
 }
-.texto.azul{
-  color: #0485A3;
+.texto--blanco{
+  color: #F9F9F9;
 }
+
 /*habilidades*/
 .habilidades,.proyecto{
-  background-image: url("../assets/img/blanco.jpg");
-
+  background-image: url("../assets/img/pared.jpg");
+}
+.habilidades{
+  padding-bottom: 8%;
 }
 .img-skills{
   width: 35%;
 }
+.habilidades .container{
+  margin-top: 5%;
+}
+.texto--morado{
+  font-family: 'Josefin Slab', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #631357;
+  font-variant: small-caps;
+}
+.texto--rosa{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #9F1861;
+}
+
 /*proyecto*/
 .proyecto{
-  /*background-image: url("../assets/img/anchor-lee-181406.jpg");*/
   padding-top: 5%;
-  padding-bottom: 8%;
 }
 .proyecto-imagen{
   width: 90%;
+}
+.caption{
+  font-family: 'Josefin Slab', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.caption h3{
+  color: #631357;
+  font-variant: small-caps;
+}
+.caption p{
+  color: #9F1861;
+}
+.caption .btn{
+  color: #631357;
+  border: 1px solid #631357;
+}
+.caption .btn:hover{
+  background-color: #631357;
+  color: #F9F9F9;
 }
 .alertate{
   height: 5vh;
@@ -114,36 +157,40 @@ nav .container-fluid{
 }
 /*contacto*/
 .contacto{
-  background-color: #FCD639;
-  background-image: url("../assets/img/amarillo3.jpg");
-  color: #0F1E36;
-  padding: 3%;
-  font-family:'Open Sans', sans-serif;;
-  font-size: 3vh;
-}
-.contacto-titulo{
-  font-size: 4.5vh;
+  background-color: #9F1861;
+  color: #F9F9F9;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 .contacto a{
-  color: #0F1E36;
+  color: #F9F9F9;
   cursor: pointer;
+  text-decoration: underline;
 }
 .contacto .redes{
   font-size: 7vh;
   margin: 0 2%;
-  color: #0F1E36;
+  color: #F9F9F9;
+}
+
+.contacto a:hover, .redes:hover{
+  color: #EFE94B;
 }
 
 /*footer*/
 .footer-fondo{
-  background-color: #364CA2;
-  color: #fff;
+  background-color: #631357;
+  color: #f9f9f9;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem;
   padding: 1%;
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-
+@media (min-width: 750px) and (max-width: 1023px ) {
+  .foto{
+    width: 20vh;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
