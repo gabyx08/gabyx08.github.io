@@ -1,0 +1,287 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'serve' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'serve', null ]
+5 verbose cache add name=undefined spec="serve" args=["serve",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'serve',
+6 verbose parsed url   path: 'serve',
+6 verbose parsed url   href: 'serve' }
+7 silly lockFile b88fb872-serve serve
+8 verbose lock serve /home/feerdinand/.npm/b88fb872-serve.lock
+9 silly lockFile b88fb872-serve serve
+10 silly lockFile b88fb872-serve serve
+11 verbose addNamed [ 'serve', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f5f9b276-serve serve@
+14 verbose lock serve@ /home/feerdinand/.npm/f5f9b276-serve.lock
+15 silly addNameRange { name: 'serve', range: '*', hasData: false }
+16 verbose url raw serve
+17 verbose url resolving [ 'https://registry.npmjs.org/', './serve' ]
+18 verbose url resolved https://registry.npmjs.org/serve
+19 info trying registry request attempt 1 at 13:17:10
+20 http GET https://registry.npmjs.org/serve
+21 http 200 https://registry.npmjs.org/serve
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Sat, 12 Aug 2017 08:08:34 GMT',
+22 silly registry.get     etag: '"598eb782-1c7e5"',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '116709',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sat, 12 Aug 2017 18:17:10 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-dfw1839-DFW',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1502561831.701816,VS0,VE138',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'serve', range: '*', hasData: true }
+24 silly addNameRange versions [ 'serve',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.4.0',
+24 silly addNameRange     '2.4.1',
+24 silly addNameRange     '2.4.2',
+24 silly addNameRange     '2.4.3',
+24 silly addNameRange     '2.4.4',
+24 silly addNameRange     '3.0.0',
+24 silly addNameRange     '3.0.1',
+24 silly addNameRange     '3.0.2',
+24 silly addNameRange     '3.1.0',
+24 silly addNameRange     '3.2.0',
+24 silly addNameRange     '3.2.1',
+24 silly addNameRange     '3.2.2',
+24 silly addNameRange     '3.2.3',
+24 silly addNameRange     '3.2.4',
+24 silly addNameRange     '3.2.5',
+24 silly addNameRange     '3.2.6',
+24 silly addNameRange     '3.2.7',
+24 silly addNameRange     '3.2.8',
+24 silly addNameRange     '3.2.9',
+24 silly addNameRange     '3.2.10',
+24 silly addNameRange     '3.3.0',
+24 silly addNameRange     '3.3.1',
+24 silly addNameRange     '3.4.0',
+24 silly addNameRange     '3.4.1',
+24 silly addNameRange     '4.0.0',
+24 silly addNameRange     '4.0.1',
+24 silly addNameRange     '4.0.2',
+24 silly addNameRange     '5.0.0',
+24 silly addNameRange     '5.0.1',
+24 silly addNameRange     '5.0.2',
+24 silly addNameRange     '5.0.3',
+24 silly addNameRange     '5.0.4',
+24 silly addNameRange     '5.1.0',
+24 silly addNameRange     '5.1.1',
+24 silly addNameRange     '5.1.2',
+24 silly addNameRange     '5.1.3',
+24 silly addNameRange     '5.1.4',
+24 silly addNameRange     '5.1.5',
+24 silly addNameRange     '5.2.0',
+24 silly addNameRange     '5.2.1',
+24 silly addNameRange     '5.2.2',
+24 silly addNameRange     '5.2.3',
+24 silly addNameRange     '5.2.4',
+24 silly addNameRange     '6.0.0',
+24 silly addNameRange     '6.0.1',
+24 silly addNameRange     '6.0.2',
+24 silly addNameRange     '6.0.3',
+24 silly addNameRange     '6.0.4',
+24 silly addNameRange     '6.0.5',
+24 silly addNameRange     '6.0.6' ] ]
+25 verbose addNamed [ 'serve', '6.0.6' ]
+26 verbose addNamed [ '6.0.6', '6.0.6' ]
+27 silly lockFile 2a8131a4-serve-6-0-6 serve@6.0.6
+28 verbose lock serve@6.0.6 /home/feerdinand/.npm/2a8131a4-serve-6-0-6.lock
+29 silly lockFile af633075--npmjs-org-serve-serve-6-0-6-tgz https://registry.npmjs.org/serve/-/serve-6.0.6.tgz
+30 verbose lock https://registry.npmjs.org/serve/-/serve-6.0.6.tgz /home/feerdinand/.npm/af633075--npmjs-org-serve-serve-6-0-6-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve/-/serve-6.0.6.tgz',
+31 verbose addRemoteTarball   '76ef4aea7d7e5954bb2bd58dedd21e9d19c7390f' ]
+32 info retry fetch attempt 1 at 13:17:10
+33 verbose fetch to= /home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/tmp.tgz
+34 http GET https://registry.npmjs.org/serve/-/serve-6.0.6.tgz
+35 http 200 https://registry.npmjs.org/serve/-/serve-6.0.6.tgz
+36 verbose tar unpack /home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/tmp.tgz
+37 silly lockFile 5e40e8fe-30945-0-9590103002265096-package tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+38 verbose lock tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package /home/feerdinand/.npm/5e40e8fe-30945-0-9590103002265096-package.lock
+39 silly lockFile cbc27278-30945-0-9590103002265096-tmp-tgz tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/tmp.tgz
+40 verbose lock tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/tmp.tgz /home/feerdinand/.npm/cbc27278-30945-0-9590103002265096-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry lib/api.js
+44 silly gunzTarPerm extractEntry lib/listening.js
+45 silly gunzTarPerm extractEntry lib/options.js
+46 silly gunzTarPerm extractEntry lib/render.js
+47 silly gunzTarPerm extractEntry lib/server.js
+48 silly gunzTarPerm extractEntry lib/view.js
+49 silly gunzTarPerm extractEntry assets/styles.css
+50 silly gunzTarPerm extractEntry bin/serve.js
+51 silly gunzTarPerm extractEntry license.md
+52 silly gunzTarPerm extractEntry readme.md
+53 silly gunzTarPerm extractEntry views/index.hbs
+54 silly lockFile 5e40e8fe-30945-0-9590103002265096-package tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+55 silly lockFile 5e40e8fe-30945-0-9590103002265096-package tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+56 silly lockFile cbc27278-30945-0-9590103002265096-tmp-tgz tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/tmp.tgz
+57 silly lockFile cbc27278-30945-0-9590103002265096-tmp-tgz tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/tmp.tgz
+58 verbose tar pack [ '/home/feerdinand/.npm/serve/6.0.6/package.tgz',
+58 verbose tar pack   '/home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package' ]
+59 verbose tarball /home/feerdinand/.npm/serve/6.0.6/package.tgz
+60 verbose folder /home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+61 silly lockFile 5e40e8fe-30945-0-9590103002265096-package tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+62 verbose lock tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package /home/feerdinand/.npm/5e40e8fe-30945-0-9590103002265096-package.lock
+63 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+64 verbose lock tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz /home/feerdinand/.npm/fffbd5b0-nand-npm-serve-6-0-6-package-tgz.lock
+65 silly lockFile 5e40e8fe-30945-0-9590103002265096-package tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+66 silly lockFile 5e40e8fe-30945-0-9590103002265096-package tar:///home/feerdinand/tmp/npm-5027-kAL8dMz-/1502561830945-0.9590103002265096/package
+67 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+68 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+69 silly lockFile ad62cf4b-erdinand-npm-serve-6-0-6-package /home/feerdinand/.npm/serve/6.0.6/package
+70 verbose lock /home/feerdinand/.npm/serve/6.0.6/package /home/feerdinand/.npm/ad62cf4b-erdinand-npm-serve-6-0-6-package.lock
+71 silly lockFile ad62cf4b-erdinand-npm-serve-6-0-6-package /home/feerdinand/.npm/serve/6.0.6/package
+72 silly lockFile ad62cf4b-erdinand-npm-serve-6-0-6-package /home/feerdinand/.npm/serve/6.0.6/package
+73 verbose tar unpack /home/feerdinand/.npm/serve/6.0.6/package.tgz
+74 silly lockFile b73a00ac-erdinand-npm-serve-6-0-6-package tar:///home/feerdinand/.npm/serve/6.0.6/package
+75 verbose lock tar:///home/feerdinand/.npm/serve/6.0.6/package /home/feerdinand/.npm/b73a00ac-erdinand-npm-serve-6-0-6-package.lock
+76 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+77 verbose lock tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz /home/feerdinand/.npm/fffbd5b0-nand-npm-serve-6-0-6-package-tgz.lock
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry assets/styles.css
+81 silly gunzTarPerm extractEntry bin/serve.js
+82 silly gunzTarPerm extractEntry lib/api.js
+83 silly gunzTarPerm extractEntry lib/listening.js
+84 silly gunzTarPerm extractEntry lib/options.js
+85 silly gunzTarPerm extractEntry lib/render.js
+86 silly gunzTarPerm extractEntry lib/server.js
+87 silly gunzTarPerm extractEntry lib/view.js
+88 silly gunzTarPerm extractEntry readme.md
+89 silly gunzTarPerm extractEntry views/index.hbs
+90 silly lockFile b73a00ac-erdinand-npm-serve-6-0-6-package tar:///home/feerdinand/.npm/serve/6.0.6/package
+91 silly lockFile b73a00ac-erdinand-npm-serve-6-0-6-package tar:///home/feerdinand/.npm/serve/6.0.6/package
+92 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+93 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+94 verbose chmod /home/feerdinand/.npm/serve/6.0.6/package.tgz 644
+95 verbose chown /home/feerdinand/.npm/serve/6.0.6/package.tgz [ 1000, 1000 ]
+96 silly lockFile af633075--npmjs-org-serve-serve-6-0-6-tgz https://registry.npmjs.org/serve/-/serve-6.0.6.tgz
+97 silly lockFile af633075--npmjs-org-serve-serve-6-0-6-tgz https://registry.npmjs.org/serve/-/serve-6.0.6.tgz
+98 silly lockFile 2a8131a4-serve-6-0-6 serve@6.0.6
+99 silly lockFile 2a8131a4-serve-6-0-6 serve@6.0.6
+100 silly lockFile f5f9b276-serve serve@
+101 silly lockFile f5f9b276-serve serve@
+102 silly resolved [ { name: 'serve',
+102 silly resolved     version: '6.0.6',
+102 silly resolved     description: 'Static file serving and directory listing',
+102 silly resolved     scripts: { precommit: 'lint-staged', test: 'xo' },
+102 silly resolved     files: [ 'bin', 'lib', 'assets', 'views' ],
+102 silly resolved     repository: { type: 'git', url: 'git://github.com/zeit/serve' },
+102 silly resolved     main: './lib/api.js',
+102 silly resolved     bin: { serve: './bin/serve.js' },
+102 silly resolved     engines: { node: '>=6.9.0' },
+102 silly resolved     xo: { extends: 'prettier' },
+102 silly resolved     'lint-staged': { '*.js': [Object] },
+102 silly resolved     keywords: [ 'now', 'serve', 'micro', 'http-server' ],
+102 silly resolved     author: { name: 'leo' },
+102 silly resolved     license: 'MIT',
+102 silly resolved     devDependencies:
+102 silly resolved      { 'eslint-config-prettier': '2.3.0',
+102 silly resolved        husky: '0.14.3',
+102 silly resolved        'lint-staged': '4.0.2',
+102 silly resolved        prettier: '1.5.3',
+102 silly resolved        xo: '0.18.2' },
+102 silly resolved     dependencies:
+102 silly resolved      { args: '3.0.4',
+102 silly resolved        'basic-auth': '1.1.0',
+102 silly resolved        bluebird: '3.5.0',
+102 silly resolved        boxen: '1.2.1',
+102 silly resolved        chalk: '2.0.1',
+102 silly resolved        clipboardy: '1.1.4',
+102 silly resolved        dargs: '5.1.0',
+102 silly resolved        'detect-port': '1.2.1',
+102 silly resolved        filesize: '3.5.10',
+102 silly resolved        'fs-extra': '4.0.1',
+102 silly resolved        handlebars: '4.0.10',
+102 silly resolved        ip: '1.1.5',
+102 silly resolved        micro: '8.0.1',
+102 silly resolved        'micro-compress': '1.0.0',
+102 silly resolved        'mime-types': '2.1.16',
+102 silly resolved        'node-version': '1.1.0',
+102 silly resolved        opn: '5.1.0',
+102 silly resolved        'path-type': '3.0.0',
+102 silly resolved        send: '0.15.3',
+102 silly resolved        'update-notifier': '2.2.0' },
+102 silly resolved     readme: '# serve\n\n[![Build Status](https://travis-ci.org/zeit/serve.svg?branch=master)](https://travis-ci.org/zeit/serve)\n[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)\n[![Slack Channel](http://zeit-slackin.now.sh/badge.svg)](https://zeit.chat/)\n\nEver wanted to share a project on your network by running just a command? Then this module is exactly what you\'re looking for: It provides a neat interface for listing the directory\'s contents and switching into sub folders.\n\nIn addition, it\'s also awesome when it comes to serving static sites!\n\n![screenshot](https://raw.githubusercontent.com/zeit/art/4bafffc43b38f3b796eb2f9071292d13d129a7d8/serve/example.png)\n\n## Usage\n\nInstall it (needs at least Node LTS):\n\n```bash\nnpm install -g serve\n```\n\nAnd run this command in your terminal:\n\n```bash\nserve [options] <path>\n```\n\n### Options\n\nRun this command to see a list of all available options:\n\n```bash\nserve help\n```\n\n### Authentication\n\nIf you set the `--auth` flag, the package will look for a username and password in the `SERVE_USER` and `SERVE_PASSWORD` environment variables.\n\nAs an example, this is how such a command could look like:\n\n```bash\nSERVE_USER=leo SERVE_PASSWORD=1234 serve --auth\n```\n\n## API\n\nYou can also use the package inside your application. Just load it:\n\n```js\nconst serve = require(\'serve\')\n```\n\nAnd call it with flags (run [this command](#options) for the full list):\n\n```js\nconst server = serve(__dirname, {\n  port: 1337,\n  ignore: [\'node_modules\']\n})\n```\n\nLater in the code, you can stop the server using this method:\n\n```js\nserver.stop()\n```\n\n## Contributing\n\n1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device\n2. Uninstall `serve` if it\'s already installed: `npm uninstall -g serve`\n3. Link it to the global module directory: `npm link`\n\nAfter that, you can use the `serve` command everywhere. [Here](https://github.com/zeit/serve/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+for+beginners%22)\'s a list of issues that are great for beginners.\n\n## Credits\n\nThis project used to be called "list" and "micro-list". But thanks to [TJ Holowaychuk](https://github.com/tj) handing us the new name, it\'s now called "serve" (which is much more definite).\n\n## Author\n\nLeo Lamprecht ([@notquiteleo](https://twitter.com/notquiteleo)) - [▲ZEIT](https://zeit.co)\n',
+102 silly resolved     readmeFilename: 'readme.md',
+102 silly resolved     bugs: { url: 'https://github.com/zeit/serve/issues' },
+102 silly resolved     _id: 'serve@6.0.6',
+102 silly resolved     dist: { shasum: 'dd03cb3580013f13256da5c5b7ab57b4ef304199' },
+102 silly resolved     _from: 'serve@',
+102 silly resolved     _resolved: 'https://registry.npmjs.org/serve/-/serve-6.0.6.tgz' } ]
+103 info install serve@6.0.6 into /usr/local/lib
+104 info installOne serve@6.0.6
+105 warn engine serve@6.0.6: wanted: {"node":">=6.9.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+106 info /usr/local/lib/node_modules/serve unbuild
+107 verbose tar unpack /home/feerdinand/.npm/serve/6.0.6/package.tgz
+108 silly lockFile 11654a08-usr-local-lib-node-modules-serve tar:///usr/local/lib/node_modules/serve
+109 verbose lock tar:///usr/local/lib/node_modules/serve /home/feerdinand/.npm/11654a08-usr-local-lib-node-modules-serve.lock
+110 silly lockFile fffbd5b0-nand-npm-serve-6-0-6-package-tgz tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz
+111 verbose lock tar:///home/feerdinand/.npm/serve/6.0.6/package.tgz /home/feerdinand/.npm/fffbd5b0-nand-npm-serve-6-0-6-package-tgz.lock
+112 silly gunzTarPerm modes [ '755', '644' ]
+113 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+113 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+113 error   errno: 3,
+113 error   code: 'EACCES',
+113 error   path: '/usr/local/lib/node_modules',
+113 error   fstream_type: 'Directory',
+113 error   fstream_path: '/usr/local/lib/node_modules/serve',
+113 error   fstream_class: 'DirWriter',
+113 error   fstream_stack:
+113 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+113 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+113 error      'Object.oncomplete (fs.js:107:15)' ] }
+114 error Please try running this command again as root/Administrator.
+115 error System Linux 3.19.0-41-generic
+116 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "serve"
+117 error cwd /home/feerdinand/Escritorio/gab/gabyx08.github.io
+118 error node -v v0.10.25
+119 error npm -v 1.3.10
+120 error path /usr/local/lib/node_modules
+121 error fstream_path /usr/local/lib/node_modules/serve
+122 error fstream_type Directory
+123 error fstream_class DirWriter
+124 error code EACCES
+125 error errno 3
+126 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+127 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+127 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+127 error fstream_stack Object.oncomplete (fs.js:107:15)
+128 verbose exit [ 3, true ]

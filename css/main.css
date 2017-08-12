@@ -47,14 +47,15 @@ nav .container-fluid{
 }
 .nombre{
   font-family: 'Sacramento', cursive;
-  font-size: 17vh;
-  margin-top: 17vh;
+  font-size: 9rem;
+  margin-top: 10vh;
   color: #F9F9F9;
   font-weight: bold;
+  padding-top: 2%;
 }
 .devp{
   font-family: 'Josefin Slab', serif;
-  font-size: 6vh;
+  font-size: 3.5rem;
   color: #EFE94B;
   font-weight: bold;
   font-variant: small-caps; 
@@ -186,14 +187,23 @@ nav .container-fluid{
   font-size: 1.5rem;
   padding: 1%;
 }
-/* Small devices (tablets, 768px and up) */
+/* tablets */
 @media (min-width: 750px) and (max-width: 1023px ) {
+  .nombre{
+      font-size: 12rem;
+      margin-top: 15vh;
+      padding-top: 2%;
+  }
+  .devp{
+    font-size: 5rem;
+    margin-top: 5%;
+  }
   .foto{
     width: 20vh;
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
+/* desktop*/
 @media (min-width: 1024px) {
   body {
   position: relative;
@@ -201,10 +211,11 @@ nav .container-fluid{
   .nombre{
       font-size: 17rem;
       margin-top: 12%;
+      padding-top: 2%;
   }
   .devp{
-    font-size: 7rem;
-    margin-top: 0;
+    font-size: 6rem;
+    margin-top: 5%;
   }
   .portada{
     margin: 0;
