@@ -1,225 +1,295 @@
-.secciones{
-   padding-top: 70px;
- }
- .fondo{
-  background-size: cover;
-  background-position: center;
+.secciones {
+    padding-top: 70px;
 }
+
+.fondo {
+    background-size: cover;
+    background-position: center;
+}
+
+
 /*nav*/
-nav .fa{
-  margin-right: 2%;
+
+nav .fa {
+    margin-right: 2%;
 }
-.logo{
-  font-family: 'Sacramento', cursive;
-  font-size: 3.5vh;
-  font-weight: bold;
+
+.logo {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5vh;
+    font-weight: bold;
 }
-.logo .fa{
-  margin-left: 1%;
+
+.logo .fa {
+    margin-left: 1%;
 }
-a.navbar-brand.logo{
-  width: 25vw;
+
+a.navbar-brand.logo {
+    width: 25vw;
 }
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand,.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-  color: #F9F9F9;
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #F9F9F9;
 }
-nav .container-fluid{
-  background-color: #631357;
+
+nav .container-fluid {
+    background-color: #631357;
 }
-.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
     color: #F9F9F9;
     font-family: 'Josefin Slab', serif;
     font-size: 1.8rem;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
-  color: #F9F9F9;
-  background-color: #9F1861;
-  font-weight: bold;
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #F9F9F9;
+    background-color: #9F1861;
+    font-weight: bold;
 }
+
+
 /*portada*/
-.portada{
-  background-image: url("../assets/img/tren.jpg");
-  background-attachment: fixed;
-  height: 100vh;
+
+.portada {
+    background-image: url("../assets/img/tren.jpg");
+    background-attachment: fixed;
+    height: 100vh;
 }
-.fondo-blanco{
+
+.fondo-blanco {
     background-color: rgba(159, 24, 97, .3);
 }
-.nombre{
-  font-family: 'Sacramento', cursive;
-  font-size: 17vh;
-  margin-top: 17vh;
-  color: #F9F9F9;
-  font-weight: bold;
+
+.nombre {
+    font-family: 'Sacramento', cursive;
+    font-size: 17vh;
+    margin-top: 17vh;
+    color: #F9F9F9;
+    font-weight: bold;
+    padding-top: 2%;
 }
-.devp{
-  font-family: 'Josefin Slab', serif;
-  font-size: 6vh;
-  color: #EFE94B;
-  font-weight: bold;
-  font-variant: small-caps; 
+
+.devp {
+    font-family: 'Josefin Slab', serif;
+    font-size: 6vh;
+    color: #EFE94B;
+    font-weight: bold;
+    font-variant: small-caps;
 }
+
+
 /*acerca de mi*/
-.acerca, .contacto{
-  background-color: #631357;
-  background-image: url("../assets/img/degradado.jpg");
-  background-size: cover;
-  background-position: bottom;
-  padding: 8vh 0;
+
+.acerca,
+.contacto {
+    background-color: #631357;
+    background-image: url("../assets/img/degradado.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding: 8vh 0;
 }
-.titulo{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
-  font-size: 5rem;
-  font-variant: small-caps;
+
+.titulo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    font-variant: small-caps;
 }
-.titulo--amarillo{
-  color: #EFE94B;
+
+.titulo--amarillo {
+    color: #EFE94B;
 }
-.titulo--rosa{
-  color: #9F1861;
+
+.titulo--rosa {
+    color: #9F1861;
 }
-.foto{
-  border-radius: 50%;
-  filter: grayscale(20%);
-  width: 30vh;
-  margin: 6% 0;
-  border: 7px double #9F1861;
+
+.foto {
+    border-radius: 50%;
+    filter: grayscale(20%);
+    width: 30vh;
+    margin: 6% 0;
+    border: 7px double #9F1861;
 }
-.texto{
-  font-family: 'Josefin Slab', serif;
-  font-size: 2rem;
-  font-weight: bold;
+
+.texto {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
-.texto--blanco{
-  color: #F9F9F9;
+
+.texto--blanco {
+    color: #F9F9F9;
 }
+
 
 /*habilidades*/
-.habilidades,.proyecto{
-  background-image: url("../assets/img/pared.jpg");
+
+.habilidades,
+.proyecto {
+    background-image: url("../assets/img/pared.jpg");
 }
-.habilidades{
-  padding-bottom: 8%;
+
+.habilidades {
+    padding-bottom: 8%;
 }
-.img-skills{
-  width: 35%;
+
+.img-skills {
+    width: 35%;
 }
-.habilidades .container{
-  margin-top: 5%;
+
+.habilidades .container {
+    margin-top: 5%;
 }
-.texto--morado{
-  font-family: 'Josefin Slab', serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #631357;
-  font-variant: small-caps;
+
+.texto--morado {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #631357;
+    font-variant: small-caps;
 }
-.texto--rosa{
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #9F1861;
+
+.texto--rosa {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9F1861;
 }
+
 
 /*proyecto*/
-.proyecto{
-  padding-top: 5%;
-}
-.proyecto-imagen{
-  width: 90%;
-}
-.caption{
-  font-family: 'Josefin Slab', serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.caption h3{
-  color: #631357;
-  font-variant: small-caps;
-}
-.caption p{
-  color: #9F1861;
-}
-.caption .btn{
-  color: #631357;
-  border: 1px solid #631357;
-}
-.caption .btn:hover{
-  background-color: #631357;
-  color: #F9F9F9;
-}
-.alertate{
-  height: 5vh;
-}
-.titulo_margin{
-  margin-bottom: 5%;
-}
-/*contacto*/
-.contacto{
-  background-color: #9F1861;
-  color: #F9F9F9;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-.contacto a{
-  color: #F9F9F9;
-  cursor: pointer;
-  text-decoration: underline;
-}
-.contacto .redes{
-  font-size: 7vh;
-  margin: 0 2%;
-  color: #F9F9F9;
+
+.proyecto {
+    padding-top: 5%;
 }
 
-.contacto a:hover, .redes:hover{
-  color: #EFE94B;
+.proyecto-imagen {
+    width: 90%;
+}
+
+.caption {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.caption h3 {
+    color: #631357;
+    font-variant: small-caps;
+}
+
+.caption p {
+    color: #9F1861;
+}
+
+.caption .btn {
+    color: #631357;
+    border: 1px solid #631357;
+}
+
+.caption .btn:hover {
+    background-color: #631357;
+    color: #F9F9F9;
+}
+
+.alertate {
+    height: 5vh;
+}
+
+.titulo_margin {
+    margin-bottom: 5%;
+}
+
+
+/*contacto*/
+
+.contacto {
+    background-color: #9F1861;
+    color: #F9F9F9;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contacto a {
+    color: #EFE94B;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contacto .redes {
+    font-size: 7vH;
+    margin: 0 2%;
+    color: #F9F9F9;
+}
+
+.contacto a:hover,
+.redes:hover {
+    color: #9F1861;
 }
 
 /*footer*/
-.footer-fondo{
-  background-color: #631357;
-  color: #f9f9f9;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.5rem;
-  padding: 1%;
+
+.footer-fondo {
+    background-color: #631357;
+    color: #f9f9f9;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    padding: 1%;
 }
+
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 750px) and (max-width: 1023px ) {
-  .nombre{
-  font-size: 15vh;
+
+@media (min-width: 750px) and (max-width: 1279px) {
+    .nombre {
+        font-size: 15vh;
+    }
+    .devp {
+        font-size: 6vh;
+    }
+    .foto {
+        width: 20vh;
+    }
 }
-.devp{
-  font-size: 6vh;
-}
-  .foto{
-    width: 20vh;
-  }
-}
+
 
 /* desktop*/
-@media (min-width: 1024px) {
-  body {
-  position: relative;
-}
-  .portada{
-    margin: 0;
-  }
-/*acerca de mi*/
-  .acerca{
-    height: 100vh;
-    padding: 7%;
-    margin: 0;
-  }
-  .foto{
-    width: 70%;
-  }
-  .texto{
-    margin-top: 12%;
-  }
-  /*portafolio*/
 
-  /*contacto*/
+@media (min-width: 1280px) {
+    body {
+        position: relative;
+    }
+    .portada {
+        margin: 0;
+    }
+    .nombre {
+        font-size: 17rem;
+    }
+    .devp {
+        font-size: 5rem;
+    }
+    /*acerca de mi*/
+    .acerca {
+        height: 100vh;
+        padding: 7%;
+        margin: 0;
+    }
+    .foto {
+        width: 70%;
+    }
+    .texto {
+        margin-top: 12%;
+    }
+    /*portafolio*/
+    /*contacto*/
 }
