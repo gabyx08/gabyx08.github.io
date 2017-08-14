@@ -128,7 +128,9 @@ nav .container-fluid {
 .texto--blanco {
     color: #F9F9F9;
 }
-
+.hola{
+    font-size: 3rem;
+}
 
 /*habilidades*/
 
@@ -298,7 +300,7 @@ nav .container-fluid {
         width: 100%;
     }
     .texto {
-        margin-top: 12%;
+        margin-top: 7%;
     }
 
     /*portafolio*/
