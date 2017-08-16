@@ -59,6 +59,7 @@ nav .container-fluid {
 /*portada*/
 
 .portada {
+    background-color: #824F73;
     background-image: url("../assets/img/tren.jpg");
     background-attachment: fixed;
     height: 100vh;
