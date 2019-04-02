@@ -60,7 +60,7 @@ nav .container-fluid {
 
 .portada {
     background-color: #824F73;
-    background-image: url("../assets/img/tren.jpg");
+    background-image: url("../assets/img/codigo2.jpg");
     background-attachment: fixed;
     height: 100vh;
 }
@@ -114,10 +114,17 @@ nav .container-fluid {
 }
 
 .foto {
-    border-radius: 50%;
-    width: 50%;
+    border-radius: 50% 80%;
+    width: 70%;
     margin: 6% 0;
     border: 7px double #9F1861;
+}
+
+.flor{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    width: 20%;
 }
 
 .texto {
@@ -263,6 +270,12 @@ nav .container-fluid {
     .foto {
         width: 100%;
     }
+    .flor{
+        position: absolute;
+        top: 65%;
+        left: 60%;
+        width: 30%;
+    }
     /*portafolio*/
     .proyecto-display{
         display: block;
@@ -299,6 +312,12 @@ nav .container-fluid {
     }
     .foto {
         width: 100%;
+    }
+    .flor{
+        position: absolute;
+        top: 65%;
+        left: 60%;
+        width: 30%;
     }
     .texto {
         margin-top: 7%;
